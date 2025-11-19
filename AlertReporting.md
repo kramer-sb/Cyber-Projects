@@ -1,0 +1,38 @@
+From TryHackMe [SOC L1 Alert Reporting](https://tryhackme.com/room/socl1alertreporting) 
+
+19-Nov-25
+
+# SOC L1 Alert Reporting
+### Learn how to properly report, escalate, and communicate about high-risk SOC alerts.
+
+**Task:**
+
+>Imagine yourself as an L2 analyst, a DFIR team member, or an IT professional who needs to understand the alert. What would you want to see in the report? We recommend you follow the Five Ws approach and include at least these items in the report:
+
+>Who: Which user logs in, runs the command, or downloads the file
+What: What exact action or event sequence was performed
+When: When exactly did the suspicious activity start and ended
+Where: Which device, IP, or website was involved in the alert
+Why: The most important W, the reasoning for your final verdict
+
+Create a report using the following information:
+
+>Description: The email was classified as phishing post-delivery after an automated analysis. If the email is spoofed or contains any suspicious links or files, it must be deeply investigated.
+>
+>Subject: Important Update: Microsoft Teams Pricing Increase
+>
+>Body Keywords: 600% price increase; urgent notice; download the report; read the details;
+>
+>Sender: Microsoft Support<support[@]microsoft.com>
+>
+>Recipient: Eddie Huffman, IT Manager<e.huffman[@]tryhackme.thm>
+>
+>Security Checks: SPF/Fail; DKIM/Fail;
+>
+>Attached URLs: None
+>
+>Attached Files: REPORT.rar
+
+**My Report**
+
+At 19:25 UTC an email was determined to be phishing after receipt from support@microsoft.com. Eddie Huffman received the email, on his company approved device. Microsoft support does not send reports in a .rar file, does not typically increase rates by 600%, and communication would not be sent from their support email. This was a phishing attempt. 
