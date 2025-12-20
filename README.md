@@ -7,4 +7,8 @@ I just yesterday finished the last of three courses with SANS Academy, through a
 
 I'm in the top 2% of TryHackMe, but I've documented not much of it, so I thought I'd start there. I'll add other things as I go. Keep checking back! 
 
+**ETA: 12/20/2025**
+
+Found out on December 12 that I have Acinic cell carcinoma (salivary gland cancer), so I am still working on cybersecurity education, but will likely slow down in January as I expect to undergo surgery. In my profile is a notion link where I'm documenting this part of my life's journey if you are interested. 
+
 ###
